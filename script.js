@@ -5,10 +5,18 @@ let emailList = ["jonathon@icloud.com", "rico@gmail.com", "nico@gmail.com", "ser
 
 // - Ask the user for their email
 
-const myEmail = prompt("Please enter your email")
+let myEmail = prompt("Please enter your email")
 
 // - Check if their email is listed
 
-
+emailList.includes(myEmail);
 
 // - Output a message granting them access if the email is listed
+
+// else statement is not working
+
+if(true){
+    alert("Welcome - come on in")
+} else{
+    alert("Welcome - come on in")
+}
