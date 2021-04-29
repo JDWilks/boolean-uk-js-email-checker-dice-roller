@@ -18,5 +18,27 @@ emailList.includes(myEmail);
 if(true){
     alert("Welcome - come on in")
 } else{
-    alert("Welcome - come on in")
+    alert("Go Away")
 }
+
+// Dice roller
+// - Generate a random number from 1 to 6, for both the player and the computer
+// >>>> note: i don't thinkg the below is not storing the number <<<<
+
+let myDice = alert(Math.floor(Math.random() * 6) + 1)
+
+let computerDice = alert(Math.floor(Math.random() * 6) + 1)
+
+// >>>> note if i add a string it messes up the random number <<<<<
+
+let myDice = alert("MyDice are" + Math.floor(Math.random() * 6) + 1)
+
+// - Determine the winner, based on who gets the highest score and let the user know
+
+if(myDice > computerDice){
+    alert("myDice is the winner")
+} else {
+    alert("Computer is the winner")
+}
+
+// - Make it a best of 5!
